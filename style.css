@@ -1,0 +1,91 @@
+.topo {
+    background-color: #003d20;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+
+body{
+    background-color: #cbddd1;
+}
+
+header{
+    background-color: #003d20;
+    color: white;
+}
+
+main{
+    color: #457d58;
+}
+
+.junto {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer  {
+    background-color: #003d20;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.rodape img {
+display:flex ;
+gap: flex;
+width: 20px;
+height:20px;
+}
+
+
+.rodape1 img{
+    display: flex;
+    gap: flex;
+    height:20px;
+    width: 20px;
+}
+
+.rodape{
+    display: flex;
+}
+
+.rodape1{
+    display: flex;
+}
+
+
+
+.rodape1 p{
+       margin: 0;
+} 
+
+.junto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.junto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.junto img {
+    width: 52%;
+    height: 150px;
+    object-fit: cover;
+}
+.rodape{
+    width: 100px;
+    height: 50px;
+}
